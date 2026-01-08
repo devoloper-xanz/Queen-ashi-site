@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Queen Ashi MD WhatsApp Bot</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;color:#00aaff;}
+body{background:#000;min-height:100vh;display:flex;flex-direction:column;align-items:center;text-align:center;}
+
+/* Heading */
+.top-heading{font-family:'Orbitron',sans-serif;font-size:3em;margin:20px 0;text-shadow:0 0 15px #00aaff;}
+
+/* Logo (Landscape) */
+.bot-logo{
+  width:220px;height:120px;
+  overflow:hidden;margin-bottom:20px;
+  border:3px solid #00aaff;box-shadow:0 0 20px #00aaff;
+}
+.bot-logo img{width:100%;height:100%;object-fit:cover;}
+
+/* Dashboard */
+.dashboard{display:flex;flex-direction:column;gap:15px;margin-bottom:30px;}
+.dashboard a{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    padding:15px 50px;font-size:1.1em;text-decoration:none;
+    border-radius:12px;border:1px solid #00aaff;box-shadow:0 0 12px #00aaff;
+    background:#000;transition:.3s;
+}
+.dashboard a:hover{transform:scale(1.05);box-shadow:0 0 25px #00aaff;}
+
+/* Features */
+.feature-section{display:flex;flex-direction:column;gap:15px;margin-bottom:30px;width:90%;max-width:600px;}
+.feature-card{background:#000;border:1px solid #00aaff;box-shadow:0 0 15px #00aaff;padding:15px 25px;border-radius:12px;text-align:left;}
+
+/* Owner */
+.owner-section{display:flex;flex-direction:column;align-items:center;gap:10px;margin-bottom:30px;}
+.owner-photo{
+  width:110px;height:110px;
+  overflow:hidden;
+  border-radius:50%;
+  border:3px solid #00aaff;
+  box-shadow:0 0 15px #00aaff;
+}
+.owner-photo img{width:100%;height:100%;object-fit:cover;}
+.owner-contact{display:flex;align-items:center;gap:8px;padding:10px 30px;text-decoration:none;border-radius:10px;border:1px solid #00aaff;box-shadow:0 0 12px #00aaff;background:#000;margin-top:10px;}
+
+/* Footer */
+footer{
+    width:100%;
+    margin-top:auto;
+    padding:15px 0;
+    border-top:1px solid #00aaff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+footer .links{display:flex;gap:25px;}
+footer a{
+    text-decoration:none;
+    font-size:1.4em;
+    padding:8px 12px;
+    border-radius:8px;
+    border:1px solid #00aaff;
+    box-shadow:0 0 10px #00aaff;
+    transition:.3s;
+}
+footer a:hover{transform:scale(1.1);}
+footer .copy{font-size:0.9em;opacity:0.8;}
+
+/* Mobile */
+@media(max-width:500px){
+.top-heading{font-size:2.2em;}
+.bot-logo{width:180px;height:100px;}
+.owner-photo{width:90px;height:90px;}
+.dashboard a{padding:12px 35px;font-size:1em;}
+.owner-contact{padding:8px 25px;font-size:0.9em;}
+}
+</style>
+</head>
+<body>
+
+<div class="top-heading">Queen Ashi MD</div>
+
+<div class="bot-logo">
+  <img src="https://files.catbox.moe/8x81ut.jpg">
+</div>
+
+<div class="dashboard">
+  <a href="https://queen-ashi-md-new.onrender.com/" target="_blank"><i class="fas fa-robot"></i> Connect Bot</a>
+  <a href="https://whatsapp.com/channel/0029Vb6yaNMIt5s3s5iUK51g" target="_blank"><i class="fab fa-whatsapp"></i> Join Channel</a>
+  <a href="#"><i class="fas fa-book"></i> Tutorials</a>
+</div>
+
+<div class="feature-section">
+  <div class="feature-card">
+    <h3>About Bot</h3>
+    <p>Queen Ashi MD Bot automatically connects, sends updates and supports fast WhatsApp commands.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Bot Features</h3>
+    <p>Auto reply, easy commands, update notifications, interactive UI.</p>
+  </div>
+</div>
+
+<div class="owner-section">
+  <div class="owner-photo">
+    <img src="https://files.catbox.moe/s2p9pf.jpg">
+  </div>
+  <a href="https://wa.me/+94776803526" class="owner-contact"><i class="fas fa-user"></i> Contact Owner</a>
+</div>
+
+<footer>
+  <div class="links">
+    <a href="https://www.youtube.com/@xanz_crush" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fas fa-hand-holding-heart"></i></a>
+  </div>
+  <div class="copy">© 2026 Queen Ashi MD — All Rights Reserved</div>
+</footer>
+
+</body>
+</html>
